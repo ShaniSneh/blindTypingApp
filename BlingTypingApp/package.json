@@ -1,0 +1,17 @@
+{
+  "name": "bling-typing-app",
+  "version": "1.0.0",
+  "description": "BlingTypingApp",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaniSneh/blindTypingApp.git"
+  },
+  "author": {
+    "name": "Shani Sneh"
+  },
+  "bugs": {
+    "url": "https://github.com/ShaniSneh/blindTypingApp/issues"
+  },
+  "homepage": "https://github.com/ShaniSneh/blindTypingApp#readme"
+}
