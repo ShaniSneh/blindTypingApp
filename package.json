@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "vue-cli": "^2.9.6",
+    "webpack": "^5.73.0"
+  },
+  "name": "blindtypingapp",
+  "description": "This website can teach user how to type without looking at their keyboard through excercises.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "coffee-script": "^1.12.7"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaniSneh/blindTypingApp.git"
+  },
+  "author": "Shani Sneh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaniSneh/blindTypingApp/issues"
+  },
+  "homepage": "https://github.com/ShaniSneh/blindTypingApp#readme"
+}
