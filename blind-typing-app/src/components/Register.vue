@@ -15,7 +15,7 @@
             <br />
             <div class="alert alert-danger" role="alert" v-html="error" />
             <br />
-            <v-btn type="submit" @click="register">Register</v-btn>
+            <v-btn type="submit" @click="register" dark>Register</v-btn>
           </div>
         </div>
       </v-flex>

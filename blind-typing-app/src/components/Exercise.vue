@@ -15,7 +15,7 @@
 
         <div>
 
-            <input class="copy" type="text" v-model="copied" v-on:input="compareText">
+            <v-text-field class="copy" type="text" v-model="copied" v-on:input="compareText"/>
 
         </div>
         <div>
@@ -23,8 +23,8 @@
             <p v-if="good" class="alert alert-success" role="alert">You are on fire! you passed this excercise with only {{ errors }} mistakes!</p>
         </div>
         <div class="under">
-            <button @click="next">Next</button>
-            <button @click="back">Menu</button>
+            <v-btn @click="next" dark>Next</v-btn>
+            <v-btn @click="back" dark>Menu</v-btn>
         </div>
     </div>
 

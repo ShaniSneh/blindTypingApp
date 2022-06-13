@@ -1,27 +1,29 @@
 <template>
   <div id="app" class="container">
-    <page-header></page-header>
-    <a @click="userInfo=true">login</a>
-    <main>
-      <v-container>
-        <!--<div v-if="userinfo">
-          <div v-if="login">
-            <login></login>
-          </div>
-          <div v-else>
-            <register></register>
-          </div>
-        </div>
-        <div v-if="menu">
-          <home @chosenlevel="chosenlevel($event)" />
+    <v-app>
+      <page-header></page-header>
+      <a @click="userInfo=true">login</a>
+      <main>
+        <v-container fluid>
+          <!--<div v-if="userinfo">
+        <div v-if="login">
+          <login></login>
         </div>
         <div v-else>
-          <timer @stop="time($event)" />
-          <exercise :level="this.level" :org="this.quote" @next="next" @back="back" />
-        </div>-->
-        <router-view></router-view>
-      </v-container>
-    </main>
+          <register></register>
+        </div>
+      </div>
+      <div v-if="menu">
+        <home @chosenlevel="chosenlevel($event)" />
+      </div>
+      <div v-else>
+        <timer @stop="time($event)" />
+        <exercise :level="this.level" :org="this.quote" @next="next" @back="back" />
+      </div>-->
+          <router-view></router-view>
+        </v-container>
+      </main>
+    </v-app>
   </div>
 </template>
 
@@ -86,14 +88,6 @@
 </script>
 
 <style>
-
-  .input-group--text-field input {
-    border-bottom: 1px solid black;
-  }
-
-  .toolbar-title {
-    color: white;
-  }
 
   li {
     list-style:none;

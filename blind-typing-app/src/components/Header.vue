@@ -1,6 +1,6 @@
 <template>
   <v-toolbar fixed class="cyan">
-    <v-toolbar-title class="mr-4">
+    <v-toolbar-title class="mr-4" dark>
       <router-link to="home">Blind Typing</router-link>
     </v-toolbar-title>
     <v-spacer></v-spacer>
